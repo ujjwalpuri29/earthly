@@ -1,4 +1,4 @@
-import { React } from 'react';
+import React from 'react';
 import Bgimage from './components/bgimage';
 import Navbar from './components/navbar';
 import Contents from './components/contents';
