@@ -1,0 +1,59 @@
+header {
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  background-color: #070d0d;
+  transition: 0.3s all linear;
+  color: white;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+  max-width: 1080px;
+  background-color: #070d0d;
+  transition: 0.5s all ease;
+  color: white;
+}
+
+.stay {
+  position: fixed;
+}
+
+.active-color {
+  color: white;
+  background-color: transparent;
+}
+
+.active-width {
+  width: 80%;
+  max-width: 840px;
+}
+
+.navlinks-container {
+  display: flex;
+}
+
+.nav-link {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-left: 40px;
+  cursor: pointer;
+}
+.navicon {
+  margin-right: 5px;
+}
+
+.logo {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  font-weight: 600;
+}
+
+.logo-img {
+  margin: 10px;
+  height: 2em;
+}

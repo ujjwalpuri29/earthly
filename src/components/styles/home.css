@@ -1,0 +1,39 @@
+.home-container {
+  color: white;
+  padding-top: 160px;
+}
+
+.subtitle {
+  font-size: 24px;
+}
+
+.heading {
+  font-size: 3.75em;
+  font-weight: bold;
+  color: #aff3c7;
+}
+
+button {
+  font-size: 24px;
+  font-family: Poppins;
+  width: 180px;
+  height: 48px;
+  margin: 40px 10px 20px 10px;
+  border: none;
+  border-radius: 4px;
+}
+
+.primary {
+  background-color: #aff3c7;
+  color: #13603f;
+}
+
+.secondary {
+  background-color: transparent;
+  color: #aff3c7;
+  border: 1px solid #aff3c7;
+}
+
+.price {
+  font-weight: 500;
+}
