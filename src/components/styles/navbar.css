@@ -10,6 +10,7 @@ header {
 .navbar {
   display: flex;
   justify-content: space-between;
+  align-items: center;
   width: 90%;
   max-width: 1080px;
   background-color: #070d0d;
@@ -56,4 +57,21 @@ header {
 .logo-img {
   margin: 10px;
   height: 2em;
+}
+
+@media screen and (max-width: 1000px) {
+  .navbar ul {
+    display: none;
+  }
+
+  .hamburg {
+    width: 32px;
+    height: 32px;
+  }
+}
+
+@media screen and (min-width: 1001px) {
+  .hamburg {
+    display: none;
+  }
 }

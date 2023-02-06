@@ -25,3 +25,12 @@
 .light-green {
   color: #aff3c7 !important;
 }
+
+@media screen and (max-width: 1000px) {
+  .card-container {
+    width: 90vw;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-row-gap: 30px;
+  }
+}

@@ -78,3 +78,40 @@
 p {
   margin: 10px 0px;
 }
+
+@media screen and (max-width: 1000px) {
+  .subheading {
+    font-size: 24px;
+  }
+
+  .desc {
+    text-align: center;
+  }
+
+  .item-container {
+    display: block;
+  }
+
+  .item-image,
+  .item-desc {
+    width: 100%;
+  }
+
+  .item-desc {
+    padding-top: 10px;
+  }
+
+  .left,
+  .right {
+    margin: 0;
+    text-align: left;
+  }
+  .vl-right {
+    margin-right: 0px;
+    margin-left: 10px;
+  }
+
+  .item-name {
+    width: 90vw;
+  }
+}

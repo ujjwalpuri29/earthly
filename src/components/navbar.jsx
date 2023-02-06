@@ -1,7 +1,7 @@
 import React from "react";
 import { useState, useEffect } from "react";
 import logo from "../assets/logo.png";
-import { BsPerson, BsCart2 } from "react-icons/bs";
+import { BsPerson, BsCart2, BsList } from "react-icons/bs";
 
 import "./styles/navbar.css";
 
@@ -38,6 +38,7 @@ const Navbar = () => {
             Cart
           </li>
         </ul>
+        <BsList className="navicon hamburg" />
       </nav>
     </header>
   );
